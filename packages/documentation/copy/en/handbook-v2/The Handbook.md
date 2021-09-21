@@ -12,16 +12,26 @@ handbook: "true"
 
 Over 20 years after its introduction to the programming community, JavaScript is now one of the most widespread cross-platform languages ever created. Starting as a small scripting language for adding trivial interactivity to webpages, JavaScript has grown to be a language of choice for both frontend and backend applications of every size. While the size, scope, and complexity of programs written in JavaScript has grown exponentially, the ability of the JavaScript language to express the relationships between different units of code has not. Combined with JavaScript's rather peculiar runtime semantics, this mismatch between language and program complexity has made JavaScript development a difficult task to manage at scale.
 
+javascript 面世20年来，已经成为了使用最广泛的跨平台开发语言。从一开始为网页添加简单动效的小型脚本语言，到现在已成为各种规模的前端/后端应用程序开发首选语言。当应用程序变的越来越复杂我的应用程序变的越来越难以维护。
+
 The most common kinds of errors that programmers write can be described as type errors: a certain kind of value was used where a different kind of value was expected. This could be due to simple typos, a failure to understand the API surface of a library, incorrect assumptions about runtime behavior, or other errors. The goal of TypeScript is to be a static typechecker for JavaScript programs - in other words, a tool that runs before your code runs (static) and ensures that the types of the program are correct (typechecked).
+
+我们碰到最多的错误就是类型错误：在期待某个特定类型时，却使用了另外一个类型。typescript 的目标是为javascript 程序提供静态类型检查，
 
 If you are coming to TypeScript without a JavaScript background, with the intention of TypeScript being your first language, we recommend you first start reading the documentation on either the [Microsoft Learn JavaScript tutorial](https://docs.microsoft.com/javascript/) or read [JavaScript at the Mozilla Web Docs](https://developer.mozilla.org/docs/Web/JavaScript/Guide).
 If you have experience in other languages, you should be able to pick up JavaScript syntax quite quickly by reading the handbook.
 
 ## How is this Handbook Structured
 
+## 手册结果
+
 The handbook is split into two sections:
 
+本手册工分为两部分：
+
 - **The Handbook**
+
+- "手册"
 
   The TypeScript Handbook is intended to be a comprehensive document that explains TypeScript to everyday programmers. You can read the handbook by going from top to bottom in the left-hand navigation.
 
